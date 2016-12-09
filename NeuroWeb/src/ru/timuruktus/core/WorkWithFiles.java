@@ -46,7 +46,7 @@ public class WorkWithFiles {
         try {
             scn = new Scanner(new File(path));
         }catch (FileNotFoundException ex){
-            JOptionPane.showMessageDialog(null, "Файл не найден Критическая ошибка!");
+            JOptionPane.showMessageDialog(null, "Presets Doesn't exists!");
         }
     }
 

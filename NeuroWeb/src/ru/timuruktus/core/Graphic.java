@@ -93,7 +93,7 @@ public class Graphic extends Canvas implements ActionListener {
         JTextField yourNeuron = new JTextField();
         text = new JLabel(" ");
         // Размеры Окна (500 х 400 пикселей)(ширина\высота)
-        frame.setSize(100, 100);
+        frame.setSize(170, 165);
 
         Canvas c = new Graphic();
         c.setBackground(Color.gray);
